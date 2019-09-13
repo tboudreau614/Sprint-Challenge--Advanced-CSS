@@ -34,14 +34,22 @@
     }
      
       .blast{
-        width: 100%;
+        @media @phone{
+          width: 100%;
+        }
+        
       }
         
         .sky {
-          display: none;
+          @media @phone {
+            display: none;
+          }
+          
         }
           .launch {
-            display: none;
+            @media @phone {
+              display: none;
+            }
           }
   }
 
