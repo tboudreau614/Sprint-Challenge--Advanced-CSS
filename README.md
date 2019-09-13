@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+- An adaptive website figures out the screen size and loads the provided layout for that specific device, whereas a fully responsive website would be able to adapt to any given device using media queries.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+- Desktop first design would be building your website optimized for a larger screen size, like a desktop, before any other devices, and working your way down into smaller screen sizes. Mobile first is the opposite of this, meaning you start off with the mobile layout for your website from the beginning, and work your way ump towards desktop.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+- The reason we put font-size: 62.5% in the html tag when we plan on using rem units is because 62.5% is equal to about 10px in terms of calculations, and makes calculating different font sizes in rem units later on much simpler.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+- I would describe preprocessing as a way to expand our possibilities within CSS, as they allow us to introduce more commands and functionalities, such as variables, mixins and proper nesting.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+- My favorite concept of preprocessing is all the new possibilities and functionalities we can use. I really like how it simplifies your workflow and makes Web Development more efficient. The part of preprocessing that seems to have given me the most trouble is that your compiler stops watching whenever there’s an error, which is useful, but can be very stressful if you don’t realize that your compiler has stopped watching immediately.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
