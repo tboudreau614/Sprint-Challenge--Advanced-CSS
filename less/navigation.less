@@ -3,11 +3,14 @@
 
     display: flex;
     justify-content: center;
-    padding-top: 2%;
+    .padding-t();
     background-color: #f4f4f4;
     border-bottom: 2px solid @main-border-color;
-    padding-bottom: 2%;
+    .padding-b();
     
+    @media @phone {
+        width: 99%;
+    }
     
         h1 {
             font-size: 4rem;
@@ -21,7 +24,9 @@
                     text-decoration: none;
                     text-align: center;
                     margin-left: 25px;
-                    
+                    @media @phone {
+                        font-size: 1.5rem;
+                    }
                 }
     
 }//closes navi class

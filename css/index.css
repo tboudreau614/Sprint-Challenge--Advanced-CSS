@@ -168,6 +168,11 @@ p {
   border-bottom: 2px solid #dee2e6;
   padding-bottom: 2%;
 }
+@media (max-width: 500px) {
+  .navi {
+    width: 99%;
+  }
+}
 .navi h1 {
   font-size: 4rem;
   text-align: center;
@@ -179,6 +184,11 @@ p {
   text-decoration: none;
   text-align: center;
   margin-left: 25px;
+}
+@media (max-width: 500px) {
+  .navi a {
+    font-size: 1.5rem;
+  }
 }
 footer {
   color: #22283B;
@@ -193,6 +203,11 @@ footer {
 }
 .home .intro img {
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home .intro img {
+    width: 99%;
+  }
 }
 .home .intro h2 {
   padding: 15px;
@@ -211,6 +226,15 @@ footer {
   border-radius: 20px;
   height: 100%;
 }
+.home .space-images .blast {
+  width: 465px;
+}
+.home .space-images .sky {
+  display: none;
+}
+.home .space-images .launch {
+  display: none;
+}
 .home .visit-planets {
   padding: 15px;
 }
@@ -227,8 +251,18 @@ footer {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  .home .walk {
+    flex-direction: column-reverse;
+  }
+}
 .home .walk .walk-text {
   width: 50%;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text {
+    width: 100%;
+  }
 }
 .home .walk .walk-text h3 {
   margin-bottom: 10px;
@@ -239,7 +273,7 @@ footer {
 .home .walk .walk-text .btn {
   width: 100px;
   height: 35px;
-  background-color: black;
+  background-color: #23293B;
   font-size: 2rem;
   color: white;
   border-radius: 5px;
@@ -247,9 +281,33 @@ footer {
   padding-top: 8px;
   padding-bottom: 5px;
 }
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn {
+    width: 100%;
+  }
+}
+.home .walk .walk-text .btn a {
+  text-decoration: none;
+  color: white;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: white;
+  color: #23293B;
+  transition: 1.5s;
+}
+.home .walk .walk-text .btn a:hover {
+  color: #23293B;
+  transition: 1.5s;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-img {
+    width: 100%;
+    margin-left: 0%;
+  }
 }
 .home .walk .walk-img img {
   width: 100%;

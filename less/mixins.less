@@ -3,13 +3,36 @@
 .btnprop() {
     width: 100px;
     height: 35px;
-    background-color: black;
+    background-color: @ebony-clay;
     font-size: 2rem;
     color: white;
     border-radius: 5px;
     text-align: center;
     padding-top: 8px;
     padding-bottom: 5px;
+    @media @phone {
+        width: 100%;
+    }
+}
+
+.btn-hov() {
+    //width: 100px;
+    //height: 35px;
+    background-color: white;
+    //font-size: 2rem;
+    color: @ebony-clay;
+    //border-radius: 5px;
+    //text-align: center;
+    //padding-top: 8px;
+    //padding-bottom: 5px;
+    transition: 1.5s;
 }
 
 //regular mixins
+ .padding-t() {
+    padding-top: 2%;
+ }
+
+ .padding-b() {
+     padding-bottom: 2%;
+ }
